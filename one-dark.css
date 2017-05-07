@@ -12,8 +12,7 @@
 .cm-s-one-dark .CodeMirror, .cm-s-one-dark .CodeMirror-scroll {
   font-family: 'consolas';
   font-weight: 300;
-  font-size: 18px;
-
+  font-size: 15px;
   background-color: hsl(220, 13%, 18%);
   color: hsl(220, 14%, 71%);
 }
@@ -37,8 +36,14 @@
   border: none;
   background: transparent;
 }
+
+.CodeMirror-gutters {
+   border-right: none; 
+   background-color: transparent; 
+}
+
 .cm-s-one-dark .CodeMirror-linenumber {
-  padding: 0 30px 0 30px;
+  padding: 0 13px 0 0;
   min-width: 20px;
   text-align: right;
   white-space: nowrap;
