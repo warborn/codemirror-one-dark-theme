@@ -81,6 +81,11 @@
   background-color: #ccc; /* The little square between H and V scrollbars */
 }
 
+/* Active Line */
+.cm-s-one-dark .CodeMirror-activeline-background {
+  background-color: #2C323C;
+}
+
 /* Cursor */
 
 .cm-s-one-dark .CodeMirror-cursor {
