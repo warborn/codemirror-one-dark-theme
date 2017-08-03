@@ -101,7 +101,7 @@
 /* addon: adit/machingbrackets.js & addon: edit/matchtags.js   */
 .cm-s-one-dark .CodeMirror-matchingbracket, .cm-s-one-dark .CodeMirror-matchingtag {
   /* Ensure visibility against gray inline editor background */
-  background-color: rgba(204, 217, 255,0.09);
+  background-color: transparent;
   color: hsl(220, 14%, 71%) !important;
   border-bottom: 1px solid hsl(220, 100%, 66%);
 }
